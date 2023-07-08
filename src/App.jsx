@@ -4,8 +4,8 @@ import { InputTodo } from "./components/InpputTodo";
 import { IncompleteTodo } from "./components/IncompleteTodo";
 import { CompleteTodo } from "./components/CompleteTodo";
 
-//アプリケーションの本体　ここで何をレンダリングするかをいろいろいじる
 //大きいコンポーネント
+
 export const App = () => {
   //todo入力ステート
   const [todoText, setTodoText] = useState("");
